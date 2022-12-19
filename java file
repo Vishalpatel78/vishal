@@ -1,0 +1,29 @@
+
+class Base
+{
+    void show()
+    {
+        System.out.println("this is Base class"); 
+    }
+}
+class Child extends Base
+{
+    void show()
+    {
+    System.out.println("this is child class");
+    }
+public static void main(String args[])
+
+{
+    Base r;
+  
+    Base ob1 = new Base();
+    Child ob2= new Child();
+    r=ob1;
+    r.show();
+    r = ob2;
+    r.show();
+
+    
+}
+}
